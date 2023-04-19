@@ -8,7 +8,6 @@ namespace PraktikaMIAPO2
         public static void PrimeNumber(List<uint> happybilets)
         {
             uint AmountPrime = 0;
-            bool Prime = false;
             uint AmountDivider = 0;
 
             for (int i = 0; i < happybilets.Count; i++)
@@ -29,7 +28,7 @@ namespace PraktikaMIAPO2
                 }
                 else
                 {
-                    Console.WriteLine(happybilets + " - Билет непростой");
+                    Console.WriteLine(happybilets[i] + " - Билет непростой");
                 }
             }
             Console.WriteLine("Всего простых билетов: " + AmountPrime);

@@ -18,7 +18,7 @@ namespace PraktikaMIAPO2
                 uint num2 = 0;
                 
                 Half1 = bilets[i] % 1000;
-                Half1 = bilets[i] / 1000;
+                Half2 = bilets[i] / 1000;
                 
                 for (int j = 0; j < 3; j++)
                 {
